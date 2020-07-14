@@ -1,0 +1,45 @@
+.landing {
+  height: 100vh;
+  margin: 0;
+  background-color: #2264d9;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-size: cover;
+
+  background-image: url("../images/over the city.jpg");
+
+  color: #ffffff;
+  text-shadow: 2px 2px black;
+}
+
+.bigName {
+  margin-top: 0;
+}
+
+.landingBlurb {
+  width: 80%;
+  font-size: 110%;
+  max-width: 1000px;
+}
+
+.arrow {
+  color: #ffffff;
+  position: absolute;
+  top: 85%;
+}
+
+.artCredit {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  font-size: 80%;
+  text-shadow: none;
+}
+
+.artCredit a {
+  color: white;
+}

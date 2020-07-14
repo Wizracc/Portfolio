@@ -1,0 +1,33 @@
+.about {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+
+  background-color: #011722;
+
+  color: #FDA97C;
+
+  text-shadow: 2px 2px black;
+}
+
+.bar {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.content {
+  grid-column-start: 2;
+  grid-column-end: 4;
+
+  border-left: solid;
+
+  padding-left: 10px;
+  padding-right: 20px;
+}

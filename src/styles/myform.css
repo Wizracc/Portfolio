@@ -1,0 +1,41 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 0;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+}
+
+.form label{
+  margin: 10px 10px 10px 10px;
+  height: auto;
+  font-size: 110%;
+  font-weight: bold;
+  color: white;
+}
+
+.form input{
+  background-color: pink;
+}
+
+.message{
+  height: 50%;
+  width: 50%;
+  margin-bottom: 10px;
+  background-color: pink;
+}
+
+.submit{
+  border: 0;
+  background: none;
+  background-color: #ffffff;
+  box-shadow: none;
+  border-radius: 0px;
+  height: 5%;
+  width: 10%;
+  font-weight: bolder;
+}

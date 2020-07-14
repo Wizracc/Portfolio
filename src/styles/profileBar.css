@@ -1,0 +1,9 @@
+.profileBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pic {
+  border-radius: 50%
+}
