@@ -21,7 +21,7 @@ export default class Topbar extends Component {
 
   handleScroll = () => {
     const currentScrollPos = window.pageYOffset;
-    const visible = currentScrollPos >= window.innerHeight;
+    const visible = currentScrollPos <= 10 || currentScrollPos >= window.innerHeight;
 
     this.setState({
       visible,
