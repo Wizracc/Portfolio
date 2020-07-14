@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.ed1fc8ec.chunk.css",
+    "main.js": "/Portfolio/static/js/main.6ea12eb0.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.6ea12eb0.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.d4934111.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d4934111.js.map",
+    "static/js/2.40980b7d.chunk.js": "/Portfolio/static/js/2.40980b7d.chunk.js",
+    "static/js/2.40980b7d.chunk.js.map": "/Portfolio/static/js/2.40980b7d.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.a2b9494891a38dbae10b596fc002d9b1.js": "/Portfolio/precache-manifest.a2b9494891a38dbae10b596fc002d9b1.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.ed1fc8ec.chunk.css.map": "/Portfolio/static/css/main.ed1fc8ec.chunk.css.map",
+    "static/js/2.40980b7d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.40980b7d.chunk.js.LICENSE.txt",
+    "static/media/clump sample.png": "/Portfolio/static/media/clump sample.d7efbf4b.png",
+    "static/media/face pic.png": "/Portfolio/static/media/face pic.5970f746.png",
+    "static/media/grynn sample.png": "/Portfolio/static/media/grynn sample.500ef4ad.png",
+    "static/media/landing.css": "/Portfolio/static/media/over the city.db3831b5.jpg",
+    "static/media/polo sample.png": "/Portfolio/static/media/polo sample.45e0c3a6.png",
+    "static/media/app.css": "/Portfolio/static/media/wait.f55c6df6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4934111.js",
+    "static/js/2.40980b7d.chunk.js",
+    "static/css/main.ed1fc8ec.chunk.css",
+    "static/js/main.6ea12eb0.chunk.js"
+  ]
+}
