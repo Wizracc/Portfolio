@@ -31,3 +31,14 @@
   padding-left: 10px;
   padding-right: 20px;
 }
+
+@media screen and (max-width: 999px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .proj-title {
+    padding-left: 0;
+  }
+}

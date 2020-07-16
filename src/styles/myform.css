@@ -39,3 +39,13 @@
   width: 10%;
   font-weight: bolder;
 }
+
+@media screen and (max-width: 999px) {  
+  .message{
+    width: 80%
+  }
+
+  .submit {
+    width: 50%;
+  }
+}

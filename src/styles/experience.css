@@ -10,9 +10,9 @@
   width: 90%;
   border-top: solid;
 
-  background-color: #42424A;
+  background-color: #42424a;
 
-  color: #FFF4A4;
+  color: #fff4a4;
 
   text-shadow: 2px 2px black;
 }
@@ -31,4 +31,16 @@
 
   padding-left: 20px;
   padding-right: 10px;
+}
+
+@media screen and (max-width: 999px) {
+  .experience {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .exp-content {
+    border-right: none;
+    border-left: solid;
+  }
 }

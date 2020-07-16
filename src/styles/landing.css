@@ -1,7 +1,7 @@
 .landing {
   height: 100vh;
   margin: 0;
-  background-color: #2264d9;
+  background-color: #011722;
 
   display: flex;
   flex-direction: column;
@@ -18,6 +18,16 @@
 
   color: #ffffff;
   text-shadow: 2px 2px black;
+}
+
+@media screen and (max-width: 999px) {
+
+
+  .bigName {
+    position: relative;
+    top: -10%;
+    font-size: 250%;
+  }
 }
 
 .bigName {

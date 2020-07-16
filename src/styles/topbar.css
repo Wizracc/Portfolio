@@ -1,29 +1,37 @@
-.topbar p {
-  margin: auto;
-  padding-bottom: 5px;
-  color: white;
+@media screen and (min-width: 1000px) {
+  .topbar p {
+    margin: auto;
+    padding-bottom: 5px;
+    color: white;
+  }
+
+  .topbar {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: #011722;
+    width: 100%;
+    transition: opacity 0.5s;
+    opacity: 1;
+    justify-content: center;
+    display: flex;
+  }
+
+  .hidden {
+    transition: opacity 0.5s;
+    opacity: 0;
+  }
+
+  .topbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
-.topbar {
-  position: fixed;
-  top: 0;
-  z-index: 100;
-  background-color: #011722;
-  width: 100%;
-  transition: opacity .5s;
-  opacity: 1;
-  justify-content: center;
-  display: flex;
-}
-
-.hidden{
-  transition: opacity .5s;
-  opacity: 0;
-}
-
-.topbar a {
-  color: white;
-  text-decoration: none;
-  margin-left: 10px;
-  margin-right: 10px;
+@media screen and (max-width: 999px){
+  .topbar {
+    display: none;
+  }
 }
